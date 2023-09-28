@@ -1,0 +1,38 @@
+lista1 = []
+lista2 = list()(0)
+n10_1 =[range(0,101,10)]
+n10_2 = list(range(0,101,10))
+n10_3 = [10, 120, 30, 30, LEO, true, 10.4]
+print(n10_2)
+
+Cadastro = []
+cadastro.append('leo')
+
+
+# outro exemplo
+
+notas = []
+
+for  n in range (4):
+   notas.append(float(inputT('nota: ')))
+   notas = [8, 5, 2, 10]
+   print(notas)
+   notas.pop(2)   # remove pelo indice
+   nota.remove(8) remove pelo item
+   print(notas)
+   notas.append(4)  # insere na ultima posicao
+   nota.insert(1,15)  # insere  na ultima ´psicnao
+   print(notas)
+
+   print98 IN NOTAS)
+
+
+
+   # OUTRA DICA USANDO FOR
+   for n in enumerates(notas):
+      print(f'na posicao {indice} temos a nota: {item}')
+      
+
+
+
+

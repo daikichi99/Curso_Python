@@ -1,0 +1,41 @@
+
+tUPLA1 = ()
+TUPLA2 = TUPLE()
+
+lISTA1 = []
+lISTA2 = lIST90
+
+dicionario1 = {}
+Dicionario2 = dict()
+
+
+paises = {'br':'Brasil'}
+paises2 = dict(br = !Brasil')
+print(paises)
+
+paises = dict(
+    br = 'Brasil',
+    py = 'Paraguay',
+    ar = 'Argentina')
+)
+
+# para acrescentar
+
+paises['us'] = 'Estados Unidos' # quando existe, atualiz. quando nao existe, cria
+paises['br'] = 'Leo'
+paises.update({'us' : 'Estados Unidos'})
+print(paises)
+
+
+# Um exercicio para mostrar a utilizacao desses itens mostrados
+
+
+
+
+
+
+
+
+
+
+

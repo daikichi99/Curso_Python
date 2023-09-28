@@ -1,0 +1,17 @@
+
+
+
+# fazer um programa cara ou coroa
+def cara_coroa():
+    if randint(1,2)== 1:
+    if random() >= 0,5:
+retur 'cara'
+
+from random import random, randint
+
+
+
+if random() >= 0.5
+    return '  cara'
+    return 'coroa'
+print(cara_coroa())

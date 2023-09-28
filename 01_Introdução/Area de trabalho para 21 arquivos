@@ -1,0 +1,62 @@
+ 
+"""
+with open('.\base\teste.txt', 'a', encoding='utf8') as arquivo: #onde tem 'a' pode ser w ou r
+     arquivo.write()')
+with open('./base/teste.txt', 'r', encoding='utf8') as arquivo:
+    print(arquivo)
+print(arquivo.read())
+
+"""
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+def todo():
+    while True:
+        menu = int(input('1| inserir\n2|Visualizar\n'
+                     '3| Sair\nOpcao:  '))
+        match menu:
+            case 1:
+                try:
+                    with open('./lista/to-do.txt',  'a', encoding='utf8') as arquivo:
+                        while true:
+                            tarefa = str(inpuy('Digite uma tarefa ou s para sair: '))
+
+                            if tarefa.lower() == "s":
+                                arquivo.write(f'{tarefa}\n')
+                            else:
+                                break
+                 
+                except FileNotFoundError:
+                    print('Arquivo nao encontrado')
+
+
+
+
+

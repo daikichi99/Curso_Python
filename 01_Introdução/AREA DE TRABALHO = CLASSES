@@ -1,0 +1,47 @@
+
+
+
+
+
+
+
+
+
+
+
+
+class cliente(pessoa):
+    def __init__(self, nome, cpf, email):
+            self._nome = nome, cpf)
+            self._email = email
+    
+    def getNome(self):
+        return dict(
+             nome = self.nome,
+             cpf = self._cpf,
+             email = self._email
+        ) 
+class Funcionario(pessoa)
+     def __init++(self, nome)
+        
+cliente1 = cliente('Leo', 123, 'leo@gmail.com')
+print(cliente1.getNome())
+
+# criar classe funcionario com nome cpf matricula
+        
+class Funcionario:
+
+    def __init__(self, nome, cpf, matricula):
+            self._nome = nome
+            self._cpf = cpf
+            self._matricula = matricula  
+
+    def getNome(self):
+        return self.getNome
+          
+        
+cliente1 = cliente('Leo', 123, 'leo@gmail.com')
+print(cliente1.getNome())
+
+funcionario
+

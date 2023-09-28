@@ -1,0 +1,18 @@
+
+
+
+
+
+print("tudo bem")
+
+while True:
+    menu = int(input('[1]SOMAR\n[2]SUNTRAIR\n[3]SAIR\nOpcao:  '))
+    n1 = int(input('Valor 1:  '))
+    n2 = int(input('Valor 2:  '))
+
+
+match menu:
+        case 1: PRINT(F'Resultado da Adicao: {N1 + N})')      
+        case 2: PRINT(F'Resultado da subtracao: {N1 - N2}')
+        case 3: break
+        case  : print('Opcao invalida...\n')

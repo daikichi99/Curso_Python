@@ -1,0 +1,27 @@
+
+
+
+
+
+
+
+
+
+ano_atual = date.today().year
+qtd_maior = 0
+for cont in range(5)
+    ano_nasc = int(input('Digite ano de nascimento:  '))
+
+if (ano_atual - ano_nasc) >= 18:
+    qtd_maior += 1
+    print('Mais uma pessoa maior de idade ...\n')
+
+else:
+    qtd_menor += 1
+    soma_menor += 18 - (ano_atual  - ano_nasc)
+    
+
+    media = soma_menor / qtd_menor
+
+
+
